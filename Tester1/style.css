@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container span:not(span>span){
+    display: block;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.text_data {
+    margin-left: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#picture {
+    width: 100%;
+}
+
+#main {
+    font-size: 50px;
+}
+
+#name_pic {
+    color: rgb(33, 161, 212);
+    font-size: 25px;
+}
+
+#main_data {
+    color: gray;
+    font-size: 25px;
+
+}
+
+
+
+
